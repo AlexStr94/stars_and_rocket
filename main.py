@@ -29,7 +29,8 @@ def draw(canvas):
     spaceship = animate_spaceship(
         canvas,
         spaceship_position[0],
-        spaceship_position[1]
+        spaceship_position[1],
+        speed=4
     )
     coroutines.append(spaceship)
 
